@@ -6,10 +6,7 @@ import matplotlib
 matplotlib.use('Qt5Agg')  # Use PyQt5 as the backend
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
-from matplotlib.lines import Line2D
 from matplotlib.gridspec import GridSpec
-from matplotlib import get_backend
-from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
 
 from scipy.optimize import curve_fit
 import pandas as pd
