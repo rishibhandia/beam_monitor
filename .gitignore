@@ -1,0 +1,18 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.DS_ST
+beam_monitor.log
+.python-version
+cspell.config.yaml
+requirements.txt
+beam_monitor_data_*/*
+*.png
+.DS_Store
